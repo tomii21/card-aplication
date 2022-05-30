@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="add-card">
+        <h3>Agregar tarjeta</h3>
+        <div>
+
+            <input type="text" placeholder="Titular" id="titular"> <br>
+            <input type="text" placeholder="Numero de tarjeta" id="nTarjeta"> <br>
+            <input type="date" placeholder="Fecha emitida" id="fechaE"> <br>
+            <input type="date" placeholder="Fecha Validez" id="fechaO"> <br>
+            <select id="banco">
+                <option disabled>Seleccione una opcion</option>
+                <option value="Itau">Itau</option>
+                <option value="Oca">Oca</option>
+                <option value="Banco republica">Banco republica</option>
+            </select> <br>
+            <input type="submit" name="" value="Guardar tarjeta" id="btn">
+
+            <p id="p-msg"></p>
+        </div>
+
+    </div>
+
+
+    <button id="btn-add-card">Agregar tarjeta</button>
+    <p id="nht">No hay tarjetas.</p>
+    <div id="list-cards">
+            <!-- <p id="numTarjeta"></p>
+            <p id="titular-card"></p>
+            <p id="fechaET"></p>
+            <p id="fechaVT"></p> -->
+     
+    </div>
+
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
